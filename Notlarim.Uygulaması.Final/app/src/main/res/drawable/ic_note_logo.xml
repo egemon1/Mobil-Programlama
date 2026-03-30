@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Ana Kağıt Gövdesi (Beyaz alt kısım) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,20 Q10,10 20,10 L80,10 Q90,10 90,20 L90,80 Q90,90 80,90 L20,90 Q10,90 10,80 Z" />
+
+    <!-- Üst Başlık Kısmı (Sarı) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M10,20 Q10,10 20,10 L80,10 Q90,10 90,20 L90,35 L10,35 Z" />
+
+    <!-- Ayırıcı Noktalar -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M15,42h2v2h-2z M25,42h2v2h-2z M35,42h2v2h-2z M45,42h2v2h-2z M55,42h2v2h-2z M65,42h2v2h-2z M75,42h2v2h-2z M85,42h2v2h-2z" />
+
+    <!-- Çizgiler -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M20,55h60v3h-60z M20,68h60v3h-60z M20,81h40v3h-40z" />
+</vector>
